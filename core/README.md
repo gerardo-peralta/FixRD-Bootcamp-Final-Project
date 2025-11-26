@@ -45,6 +45,14 @@ Importar desde el paquete o enlazar localmente según el flujo del monorepo:
 
 ## Verdaccio
 
+Instalar Verdaccio
+
+```
+npm install -g verdaccio
+```
+
+Correr
+
 Crear usuario
 
 ```
@@ -55,4 +63,10 @@ Publicar
 
 ```
 npm publish --registry http://localhost:4873/
+```
+
+Despublicar
+
+```
+npm unpublish @bootcamp/core@1.0.2 --force --registry http://localhost:4873/
 ```
