@@ -12,10 +12,10 @@
 }
 
 /* Para que el header de Jansel se vea bien encima */
-.app-root {
+/* .app-root {
   min-height: 100vh;
   background: transparent;
-}
+} */
 
 .home-main {
   max-width: 1200px;
