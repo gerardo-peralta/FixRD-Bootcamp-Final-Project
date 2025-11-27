@@ -1,3 +1,9 @@
+:root {
+  --azul-oscuro: #003049;
+  --verde-claro: #90e0ef;
+  --verde-medio: #72efdd;
+}
+
 .hero {
   min-height: 100vh;
   background: linear-gradient(135deg, var(--azul-oscuro), var(--verde-claro));
