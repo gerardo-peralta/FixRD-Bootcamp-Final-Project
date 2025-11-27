@@ -56,7 +56,7 @@ const SearchForm = () => {
               Refrigeración y Climatización
             </option>
           </select>
-          <small className="text-red-500">{errors?.servicios}</small>
+          
 
           <div className="ubicacion">
             <select
